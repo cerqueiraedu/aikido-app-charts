@@ -8,6 +8,6 @@ entries:
     digest: c560e71b08df2f482047de42693149e40d8e7c8c09b4bb95e2989b9a0ae8d4f5
     name: atemi-service
     urls:
-    - https://cerqueiraedu.github.io/aikido-app-charts/atemi-service/atemi-service-1.0.0.tgz
+    - https://cerqueiraedu.github.io/aikido-app-charts/charts/atemi-service/atemi-service-1.0.0.tgz
     version: 1.0.0
 generated: 2018-09-05T10:41:21.2725016-03:00

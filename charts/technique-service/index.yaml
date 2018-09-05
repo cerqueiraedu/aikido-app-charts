@@ -8,6 +8,6 @@ entries:
     digest: 9454d8f47b50a6dedc006d5c4d198b72649f5bf8404758973351680d1a15430a
     name: technique-service
     urls:
-    - https://cerqueiraedu.github.io/aikido-app-charts/technique-service/technique-service-1.0.0.tgz
+    - https://cerqueiraedu.github.io/aikido-app-charts/charts/technique-service/technique-service-1.0.0.tgz
     version: 1.0.0
 generated: 2018-09-05T10:53:06.0523522-03:00
