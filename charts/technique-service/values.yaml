@@ -1,8 +1,8 @@
-replicaCount: 3
+replicaCount: 2
 
 image:
   repository: ecerqueira/technique-service
-  tag: "2.0.0"
+  tag: "3.0.0"
   pullPolicy: Always
 
 nameOverride: ""
