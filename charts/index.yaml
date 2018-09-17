@@ -1,19 +1,9 @@
 apiVersion: v1
 entries:
-  randori-service:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2018-09-05T10:54:16.7918005-03:00
-    description: A Helm chart for technique-service
-    digest: 0833caf8de66b8a69e2e7e26a0fea95032075b4d7591aa678863f2e4506bca0a
-    name: randori-service
-    urls:
-    - https://cerqueiraedu.github.io/aikido-app-charts/charts/randori-service/randori-service-1.0.0.tgz
-    version: 1.0.0
   atemi-service:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-17T13:25:20.8487954-03:00
+    created: 2018-09-17T13:43:48.1664747-03:00
     description: A Helm chart for atemi-service
     digest: c560e71b08df2f482047de42693149e40d8e7c8c09b4bb95e2989b9a0ae8d4f5
     name: atemi-service
@@ -23,11 +13,21 @@ entries:
   randori-service:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-05T10:54:16.7918005-03:00
+    created: 2018-09-17T13:43:48.1669746-03:00
     description: A Helm chart for randori-service
-    digest: 0833caf8de66b8a69e2e7e26a0fea95032075b4d7591aa678863f2e4506bca0a
+    digest: dc69508f29a24435a090c1ce52d3150cfbaaf65757c3ff2076bfb3436ff737d0
     name: randori-service
     urls:
     - https://cerqueiraedu.github.io/aikido-app-charts/charts/randori-service/randori-service-1.0.0.tgz
     version: 1.0.0
-generated: 2018-09-05T10:54:16.791301-03:00
+  technique-service:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-09-17T13:43:48.1674745-03:00
+    description: A Helm chart for technique-service
+    digest: 9454d8f47b50a6dedc006d5c4d198b72649f5bf8404758973351680d1a15430a
+    name: technique-service
+    urls:
+    - https://cerqueiraedu.github.io/aikido-app-charts/charts/technique-service/technique-service-1.0.0.tgz
+    version: 1.0.0
+generated: 2018-09-17T13:43:48.1654742-03:00
