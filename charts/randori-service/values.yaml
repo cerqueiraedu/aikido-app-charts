@@ -2,14 +2,14 @@ replicaCount: 2
 
 image:
   repository: ecerqueira/randori-service
-  tag: "7.0.0"
+  tag: "7.1.0"
   pullPolicy: Always
 
 nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 8089
 
 ingress:  

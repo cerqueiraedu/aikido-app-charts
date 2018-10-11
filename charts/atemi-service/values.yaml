@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: ecerqueira/atemi-service
-  tag: "3.0.0"
+  tag: "3.1.0"
   pullPolicy: Always
 
 nameOverride: ""
@@ -10,7 +10,7 @@ fullnameOverride: ""
 secretName: "this is a secret"
 
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 8080
 
 ingress:  
