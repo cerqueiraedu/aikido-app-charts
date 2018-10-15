@@ -18,3 +18,10 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command: ["node", "server.js"]
+          env:
+          - name: NEW_RELIC_SECRET
+            valueFrom:
+              secretKeyRef:
+                name: {{ .Values.secretName }}
+                key: password

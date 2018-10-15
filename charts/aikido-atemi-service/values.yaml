@@ -1,0 +1,27 @@
+replicaCount: 4
+
+image:
+  repository: ecerqueira/aikido-atemi-service
+  tag: "latest"
+  pullPolicy: Always
+
+nameOverride: ""
+fullnameOverride: ""
+secretName: "atemi-new-relic-secret"
+secretValue: "Yzg5ZmVhOWFiMWU0MzBhOTgzOGI4MWJmZWYzYzkyYTQwNTRkMjQ0MQ=="
+
+service:
+  type: LoadBalancer
+  port: 8080
+
+ingress:  
+  annotations: 
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: "addon-http-application-routing"
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+  enabled: true
+  hosts:
+    - service.df0cc1260cce45f38132.eastus.aksapp.io
+    - service.aikido-app.com
+  path: /uke
+  servicePort: 8080
