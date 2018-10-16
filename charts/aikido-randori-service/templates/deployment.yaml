@@ -25,3 +25,5 @@ spec:
               secretKeyRef:
                 name: {{ .Values.secretName }}
                 key: password
+          - name: AIKIDO_APP_HOST
+            value: service.aikido-app.com
